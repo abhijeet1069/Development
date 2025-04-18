@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(53, 21, 93);
+}
+
+.quotes {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.quote {
+    padding: 1rem;
+    border: 1px solid grey;
+    border-radius: 25px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 244, 183);
+    background-color: rgb(68, 119, 206);
+}
+
+.quote .author {
+    font-weight: 50;
+}
+
+.quote:hover {
+    border: 1px solid black;
+}
